@@ -7,12 +7,12 @@ export function fetchPets() {
   return {
     type: 'FETCH_PETS',
     pets
-  };
+  }
 }
 
 export function addPet(pet){
   return {
     type: 'ADD_PET',
     pet
-  };
-};
+  }
+}

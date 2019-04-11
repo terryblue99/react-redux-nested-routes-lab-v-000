@@ -1,6 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, NavLink, Route } from 'react-router-dom';
-import PetsPage from '../containers/PetsPage';
+import React from 'react'
+import { BrowserRouter as Router, NavLink, Route } from 'react-router-dom'
+import PetsPage from '../containers/PetsPage'
 
 const App = (props) => 
   <Router>
@@ -12,6 +12,6 @@ const App = (props) =>
       <Route exact path="/" render={() => <h3>Welcome to the Pets List App</h3>} />
       <Route path="/pets" component={PetsPage} />
     </div>
-  </Router>;
+  </Router>
 
-export default App;
+export default App
